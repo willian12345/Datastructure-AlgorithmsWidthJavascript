@@ -1,4 +1,4 @@
-import { print } from './utils'
+import  { print }  from './utils'
 
 function Stack() { 
 	this.dataStore = []; 
@@ -63,7 +63,7 @@ function isPalindrome(word) {
   }
 }
 
-print(isPalindrome('hello'))
+print(isPalindrome('1001'))
 
 
 // 递归
