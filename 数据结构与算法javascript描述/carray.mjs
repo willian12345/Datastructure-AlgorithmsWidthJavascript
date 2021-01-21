@@ -115,3 +115,34 @@ print(nums.toString());
 nums.insertionSort();
 print("\nAfter Shellsort: \n");
 print(nums.toString());
+
+
+
+
+
+/**
+ * 
+ * 时间复杂度
+ */
+
+function go(n) {
+  var item = 0;
+  for (var i = 1; i <= n; i++) {
+   item += i;
+  }
+  return item;
+}
+
+
+
+function go2(n) {
+var item = n*(n+1)/2
+return item;
+}
+
+console.time('a')
+go(100000)
+console.timeEnd('a')
+console.time('b')
+go2(100000)
+console.timeEnd('b')
